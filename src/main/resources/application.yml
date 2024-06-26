@@ -1,0 +1,6 @@
+spring:
+  application.name: request-log-filter-example
+logging:
+  level:
+    net.elau.example.request_log_filter_example: DEBUG
+    org.springframework.web.filter.CommonsRequestLoggingFilter: DEBUG
